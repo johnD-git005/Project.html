@@ -1,0 +1,168 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url(img/down.jpg);
+    background-position: 100dvh;
+    color: #ffffff;
+}
+
+
+.nav-btn{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    margin: 15px 50px;
+    border: 1px solid #5f9ea0;
+    border-radius: 50px;
+    margin-bottom: 5%;
+}
+
+.btn :hover{
+    color: grey;
+}
+
+.login{
+    background-color: #5f9ea0;
+    color: #3e2514;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.signup{
+    background-color: #fffaf0;
+    color: #dddddd;
+    border-radius: 20px;
+    padding: 10px 10px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+
+.navbar{
+    margin-right: 10px;
+    justify-content: space-between;
+    padding-top: 10px;
+    
+}
+
+.navbar :hover{
+    color: #5f9ea0;
+}
+
+.navbar ul{
+    padding: 0%;
+    list-style: none;
+}
+
+.navbar li{
+    display: inline;
+    
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #ffffff;
+    padding-right: 15px;
+    letter-spacing: 0.1em;
+}
+
+.welcome{
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.logo{
+    background-color: aliceblue;
+}
+
+img{
+    width: 250px;
+}
+
+.healthcare{
+    position: relative;
+    bottom: 15px;
+    color: #3e2514;
+    margin-left: 10px;
+}
+
+.get{
+    position: absolute;
+    left: 81%;
+    top: 30%;
+    
+}
+
+.get a{
+    text-decoration: none;
+    color: white;
+    background-color: #019a5d;
+    padding: 20px;
+    border-radius: 45px;
+    font-size: large;
+    letter-spacing: 0.2em;
+}
+
+.get :hover{
+    color: black;
+}
+
+.about{
+
+}
+
+.services{
+    margin-left: 5%;
+}
+
+.content{
+    display: flex;
+    margin-top: 10%;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.2em;
+    line-height: 2.0;
+    margin-left: 50px;
+    padding-bottom: 5%;
+}
+
+hr{
+    width: 95%;
+    margin: 15px auto;
+}
+
+.footer{
+    display: flex;
+    margin-top: 50px;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.back{
+    margin-right: 50%;
+}
+
+.back a{
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 0.2em;
+}
+
+.back :hover{
+    color: #5f9ea0;
+}
+
+.login a{
+    text-decoration: none;
+}
+
+.signup a{
+    text-decoration: none;
+}
+
